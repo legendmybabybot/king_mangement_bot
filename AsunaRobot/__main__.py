@@ -74,16 +74,16 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🌺](https://telegra.ph/file/5c9c60b5360a9a31896a0.jpg) `My name is` *Asuna*
+`Hello` [🌺](https://telegra.ph/file/c4c8e9bcfc52a27355c87.jpg) `My name is` *Brahma Bull*
 `I am powerful  group management bot.
-Build by The Ghost Hunter for Your Telegram Group , I specialize in managing Entertainment type groups.
+Build by The Ben Stocks for Your Telegram Group , I specialize in managing Entertainment type groups.
 You can find my list of available commands with! Hit` *📚Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD Asuna TO YOUR GROUP ➕️",url="t.me/My_Asuna_Robot?startgroup=true"),
+            text="➕️ ADD BRAHMA BULL TO YOUR GROUP ➕️",url="t.me/BrahmaBullBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="asuna_"),
@@ -91,21 +91,21 @@ buttons = [
      
     ],
     [     InlineKeyboardButton(
-            text="🤴 OWNER", url="https://telegram.dog/The_Ghost_Hunter"),
+            text="Updates", url="https://telegram.dog/BrahmabullUpdates"),
     
     ],
     [
         InlineKeyboardButton(
-            text="📺 Star Wolrd Entertainment", url="https://telegram.dog/fire_world_entertainment"),
+            text="My Chat Group", url="https://telegram.dog/Rnfworlds"),
     ],
     [
         InlineKeyboardButton(
-            text="📕 Logis", url="https://t.me/AsunaLogUpdate"),
+            text="📕 Logs", url="https://t.me/BrahmaBulllogs"),
           
 
 
 InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/AsunaRobotSupport"
+            text="👥 SUPPORT", url="https://telegram.dog/BrahmaBullchat"
         ),
 
     ],
@@ -118,14 +118,14 @@ InlineKeyboardButton(
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Asuna 🛠️]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
+`Hi.. I'm` [Brahma Bull]("https://telegra.ph/file/c4c8e9bcfc52a27355c87.jpg") 
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-ASUNA_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
+ASUNA_IMG = "https://telegra.ph/file/c4c8e9bcfc52a27355c87.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @a_viyu or @simpleboy786 \
+ You can support the project via Adding Our Bots to your Group \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
