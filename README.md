@@ -61,8 +61,5 @@ For starters click on this button
 * [Discussion](https://telegram.dog/BrahmaBullchat)
 * [Updates](https://telegram.dog/BrahmabullUpdates)
 
-## Credits,  
+## Credits, Thanks to
 *   [The Ghost Hunter](https://telegram.dog/The_Ghost_Hunter)
-
-## Bot Owner
-*  [Falco Grice](https://telegram.dog/Official_Flying_Titan)
