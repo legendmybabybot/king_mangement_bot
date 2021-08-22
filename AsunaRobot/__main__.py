@@ -118,8 +118,8 @@ InlineKeyboardButton(
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Brahma Bull]("https://telegra.ph/file/c4c8e9bcfc52a27355c87.jpg") 
-`Click on the buttons below to get documentation about specific modules..`"""
+`Hey there! My name is Brahma Bull 
+I'm a Robot and help admins manage their groups with Advance AI! Have a look at the following for an idea of some of the things I can help you with..`"""
 
 
 ASUNA_IMG = "https://telegra.ph/file/c4c8e9bcfc52a27355c87.jpg"
