@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://telegra.ph/file/a0518cd506643d784b9c5.jpg">
+  <img src="https://telegra.ph/file/aa1b3e93ee59f6221d4e3.jpg">
 </p>
 
-# Asuna Robot
+## Brahma Bull Bot 
 
 ### Telegram Group
 <p align="left">
-<a href="https://t.me/AsunaRobotSupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+<a href="https://telegram.dog/BrahmaBullchat" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 ### Bot And Channel 
-* Bot Link:  <a href="http://t.me/princess_Asuna_Robot" alt="AsunaRobot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-princessAsunaRobot-blue" /> </a>
-* Support Channel: <a  href="https://t.me/AsunaLogUpdate" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-AsunaRobot%20Log%20Channel-9cf" /> </a>
+* Bot Link:  <a href="http://telegram.dog/Brahmabullbot" alt="Brama Bull"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Brahmabull-blue" /> </a>
+* Log Channel: <a  href="https://telegram.dog/BrahmaBulllogs" alt="Bot Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Brahmabull%20Log%20Channel-9cf" /> </a>
 
 ### Creating your own modules.
 
@@ -20,7 +20,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-from AsunaRobot import dispatcher.
+from GabiBraun  import dispatcher.
 
 You can then add commands using the usual
 
@@ -40,26 +40,29 @@ through the /stats command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
 
-python3 -m AsunaRobot
+python3 -m GabiBraunRobot
 
 You can use nssm to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
 For queries or any issues regarding the bot please open an issue ticket or visit us at <p align="left">
-<a href="https://t.me/snow_white_support" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+<a href="https://telegram.dog/BrahmaBullchat" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 ## How to setup on Heroku 
 For starters click on this button 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/HuntingBots/AsunaRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/rintarokabe/BramaBullbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 ## Our Telegram Channel and Group
 
-* [Support](https://telegram.dog/AsunaRobotSupport)
-* [Discussion](https://telegram.dog/helpcentrebot1)
-* [Second Group](https://telegram.dog/fire_world_entertainment)
+* [Channel](https://telegram.dog/BrahmaBulllogs)
+* [Discussion](https://telegram.dog/BrahmaBullchat)
+* [Updates](https://telegram.dog/BrahmabullUpdates)
 
-## Credits, and Thanks to 
+## Credits,  
 *   [The Ghost Hunter](https://telegram.dog/The_Ghost_Hunter)
+
+## Bot Owner
+*  [Falco Grice](https://telegram.dog/Official_Flying_Titan)
