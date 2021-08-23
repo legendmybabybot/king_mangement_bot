@@ -75,20 +75,20 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("asuna AI Already Activated In This Chat")
+            await lel.edit("Brahma Bull AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"asuna AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"Brahma Bull AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("asuna AI Was Not Activated In This Chat")
+            await lel.edit("Brahma Bull AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"asuna AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"Brahma Bull AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -130,8 +130,8 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("asuna", "Aco")
-        test = test.replace("asuna", "Aco")
+        test = test.replace("Brahma Bull", "Aco")
+        test = test.replace("Brahma Bull", "Aco")
         URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@AsunaRobot&ownername=@The_Ghost_Hunter"
 
         try:
@@ -193,8 +193,8 @@ async def hmm(client, message):
         # test = emoji.demojize(test.strip())
 
         # Kang with the credits bitches @InukaASiTHAsunaRobot
-        test = test.replace("asuna", "Aco")
-        test = test.replace("asuna", "Aco")
+        test = test.replace("Brahma Bull", "Aco")
+        test = test.replace("Brahma Bull", "Aco")
         URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@AsunaRobot&ownername=@The_Ghost_Hunter"
         try:
             r = requests.request("GET", url=URL)
@@ -267,8 +267,8 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip()) 
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("asuna", "Aco")
-    test = test.replace("asuna", "Aco")
+    test = test.replace("Brahma Bull", "Aco")
+    test = test.replace("Bramha Bull", "Aco")
     URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@AsunaRobot&ownername=@The_Ghost_Hunter"
     try:
         r = requests.request("GET", url=URL)
@@ -345,8 +345,8 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("asuna", "Aco")
-    test = test.replace("asuna", "Aco")
+    test = test.replace("Brahma Bull", "Aco")
+    test = test.replace("Brahma Bull", "Aco")
     URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@AsunaRobot&ownername=@The_Ghost_Hunter"
     try:
         r = requests.request("GET", url=URL)
@@ -372,7 +372,7 @@ async def inuka(client, message):
 
 __help__ = """
 <b> Chatbot </b>
-Asuna AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
+Brahma Bull AI IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  - /chatbot [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
  - /chatbot EN : Enables English only chatbot
  
