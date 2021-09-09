@@ -76,8 +76,8 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 `Hey There!` [👨](https://telegra.ph/file/c4c8e9bcfc52a27355c87.jpg) `My name is` *Brahma Bull*
 `I am an Normal Themed group management bot.
-Build by and managed by Ben stokes for Your Telegram Group , I specialize in managing anime and similar themed groups.
-You can find my list of available commands with! Hit` *📚COMMANDS*
+Build by The Ghost Hunter and managed by Ben stokes for Your Telegram Group , I specialize in managing anime and similar themed groups.
+You can find my list of available commands with! Hit` *🔐Commands*
 """
 
 buttons = [
@@ -405,8 +405,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. I'm *Brahma Bull*
-                 \nHere is the [Source Code](https://github.com/rintarokabe/BrahmabullBot) .""",
+            text=""" Hi..👸 I'm *Asuna*
+                 \nHere is the [Source Code](None) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -701,7 +701,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I am Online Now Master!")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm online now!")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
