@@ -74,10 +74,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey There!` [👨](https://telegra.ph/file/c4c8e9bcfc52a27355c87.jpg) `My name is` *Brahma Bull*
-`I am an group management bot.
+Hey There! [👨](https://telegra.ph/file/c4c8e9bcfc52a27355c87.jpg) My name is **𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪**
+I am an group management bot.
 Build by **||[𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪](https://t.me/i_14344)||** and managed by **||[The Arc Network](https://t.me/The_Arc_Network)||** for Your Telegram Group.
-You can find my list of available commands with! Hit` *🔐Commands*
+You can find my list of available commands with! Hit *🔐Commands*
 """
 
 buttons = [
@@ -118,8 +118,8 @@ InlineKeyboardButton(
 
 
 HELP_STRINGS = """
-`Hey there! My name is 𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪
-I'm a Robot and help admins manage their groups with Advance AI! Have a look at the following for an idea of some of the things I can help you with..`"""
+Hey there! My name is 𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪
+I'm a Robot and help admins manage their groups with Advance AI! Have a look at the following for an idea of some of the things I can help you with.."""
 
 
 ASUNA_IMG = "https://telegra.ph/file/c4c8e9bcfc52a27355c87.jpg"
