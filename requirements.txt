@@ -36,6 +36,7 @@ alphabet_detector
 pyrate-limiter
 cachetools
 ujson
+coffeehouse==2.2.4
 pretty_errors
 TgCrypto
 Pyrogram
@@ -61,11 +62,8 @@ lyricsgenius
 tswift
 python-arq
 envparse
-
-#profanity (Credits to Julia)
 better_profanity
 textblob 
 nudepy
-
 motor
 fontTools
