@@ -74,9 +74,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey There! [👨](https://telegra.ph/file/ba13e5a850779244159f7.jpg) My name is **𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪**
+Hey There! [👨](https://telegra.ph/file/ba13e5a850779244159f7.jpg) My name is *𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪*
 I am an group management bot.
-Build by **||[𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪](https://t.me/i_14344)||** and managed by **||[The Arc Network](https://t.me/The_Arc_Network)||** for Your Telegram Group.
+Build by *|[𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪](https://t.me/i_14344)|* and managed by *|[The Arc Network](https://t.me/The_Arc_Network)|* for Your Telegram Group.
 You can find my list of available commands with! Hit *🔐Commands*
 """
 
