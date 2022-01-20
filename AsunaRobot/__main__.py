@@ -75,15 +75,15 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 `Hey There!` [👨](https://telegra.ph/file/c4c8e9bcfc52a27355c87.jpg) `My name is` *Brahma Bull*
-`I am an Normal Themed group management bot.
-Build by The Ghost Hunter and managed by Ben stokes for Your Telegram Group , I specialize in managing anime and similar themed groups.
+`I am an group management bot.
+Build by **||[𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪](https://t.me/i_14344)||** and managed by **||[The Arc Network](https://t.me/The_Arc_Network)||** for Your Telegram Group.
 You can find my list of available commands with! Hit` *🔐Commands*
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD BRAHMA BULL TO YOUR GROUP ➕️",url="t.me/BrahmaBullBot?startgroup=true"),
+            text="➕️ ADD ME TO YOUR GROUP ➕️",url="t.me/Shb_channel_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="asuna_"),
@@ -91,34 +91,34 @@ buttons = [
      
     ],
     [     InlineKeyboardButton(
-            text="Updates", url="https://telegram.dog/BrahmabullUpdates"),
+            text="Updates", url="https://telegram.dog/The_Arc_Network"),
     
     ],
     [
         InlineKeyboardButton(
-            text="My Chat Group", url="https://telegram.dog/Rnfworlds"),
+            text="My Chat Group", url="https://telegram.dog/The_Arc_Music"),
     ],
     [
         InlineKeyboardButton(
-            text="📕 Logs", url="https://t.me/BrahmaBulllogs"),
+            text="📕 Logs", url="https://t.me/The_Arc_Support"),
           
 
 
 InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/BrahmaBullchat"
+            text="👥 SUPPORT", url="https://telegram.dog/The_Arc_Music"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="💟 Source Code", url="https://github.com/rintarokabe/BrahmabullBot"
+                    text="💟 Owner 💟", url="https://t.me/i_14344"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hey there! My name is Brahma Bull 
+`Hey there! My name is 𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪
 I'm a Robot and help admins manage their groups with Advance AI! Have a look at the following for an idea of some of the things I can help you with..`"""
 
 
@@ -370,16 +370,16 @@ def asuna_about_callback(update, context):
     query = update.callback_query
     if query.data == "asuna_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Brahma Bull*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm **𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪**, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/rintarokabe/BrahmabullBot).
-                 \n\nIf you have any question about *Brahma Bull*, let us know at .""",
+                 \n\n_
+                 \n
+                 \n\nIf you have any question about **𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪**, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -405,8 +405,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👸 I'm *Asuna*
-                 \nHere is the [Source Code](None) .""",
+            text=""" Hi..👸 I'm **𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪**
+                 \nOwner [𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪](https://t.me/i_14344) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
