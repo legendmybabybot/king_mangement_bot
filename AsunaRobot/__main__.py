@@ -74,16 +74,16 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey There! [👨](https://telegra.ph/file/ba13e5a850779244159f7.jpg) My name is *𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪*
+Hey There! [👨](https://telegra.ph/file/523ab48eff164ecd64c5e.jpg) My name is *♡𝚔𝚒𝚗𝚐 🕊♡Rᴏʙᴏᴛ♕︎*
 I am an group management bot.
-Build by *|[𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪](https://t.me/i_14344)|* and managed by *|[The Arc Network](https://t.me/The_Arc_Network)|* for Your Telegram Group.
+Build by *|[♡𝚔𝚒𝚗𝚐 🕊♡](https://t.me/Op_legend)|* and managed by *|[✰☝︎➪sᴀɴᴛɪɪ_ᵇᵒᵗ♕︎♕︎](https://t.me/legend_mangement_support)|* for Your Telegram Group.
 You can find my list of available commands with! Hit *🔐Commands*
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️",url="t.me/Shb_channel_bot?startgroup=true"),
+            text="➕️ ADD ME TO YOUR GROUP ➕️",url="t.me/legend_Op_music_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="asuna_"),
@@ -91,38 +91,38 @@ buttons = [
      
     ],
     [     InlineKeyboardButton(
-            text="Updates", url="https://telegram.dog/The_Arc_Network"),
+            text="Updates", url="https://t.me/legend_king_mangement_bot"),
     
     ],
     [
         InlineKeyboardButton(
-            text="My Chat Group", url="https://telegram.dog/The_Arc_Music"),
+            text="My Chat Group", url="https://t.me/legend_mangement_support"),
     ],
     [
         InlineKeyboardButton(
-            text="📕 Logs", url="https://t.me/The_Arc_Support"),
+            text="📕 Logs", url="https://t.me/legend_king_mangement_bot"),
           
 
 
 InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/The_Arc_Music"
+            text="👥 SUPPORT", url="https://t.me/legend_mangement_support"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="💟 Owner 💟", url="https://t.me/i_14344"
+                    text="💟 Owner 💟", url="https://t.me/legend_Op_music_bot"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-Hey there! My name is 𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪
+Hey there! My name is ♡𝚔𝚒𝚗𝚐 🕊♡
 I'm a Robot and help admins manage their groups with Advance AI! Have a look at the following for an idea of some of the things I can help you with.."""
 
 
-ASUNA_IMG = "https://telegra.ph/file/ba13e5a850779244159f7.jpg"
+ASUNA_IMG = "https://telegra.ph/file/523ab48eff164ecd64c5e.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via Adding Our Bots to your Group \
@@ -210,7 +210,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="👈 BACK", callback_data="help_back")]]
                     ),
                 )
 
@@ -405,14 +405,14 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👸 I'm **𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪**
-                 \nOwner [𝙰ғғєᴄᴛισɴαᴛє 𓆩𓄂𓆪](https://t.me/i_14344) .""",
+            text=""" Hi..👸 I'm **♡𝚔𝚒𝚗𝚐 🕊♡**
+                 \nOwner [♡𝚔𝚒𝚗𝚐 🕊♡](https://t.me/legend_Op_music_bot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
+                    InlineKeyboardButton(text="👈 Go Back", callback_data="source_back")
                  ]
                 ]
             ),
