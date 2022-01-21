@@ -57,9 +57,9 @@ For starters click on this button
 
 ## Our Telegram Channel and Group
 
-* [Channel](https://telegram.dog/BrahmaBulllogs)
-* [Discussion](https://telegram.dog/BrahmaBullchat)
-* [Updates](https://telegram.dog/BrahmabullUpdates)
+* [Channel](https://t.me/legend_king_mangement_bot)
+* [Discussion](https://t.me/legend_mangement_support)
+* [Updates](https://t.me/legend_king_mangement_bot)
 
 ## Credits, Thanks to
 *   [The Ghost Hunter](https://telegram.dog/The_Ghost_Hunter)
